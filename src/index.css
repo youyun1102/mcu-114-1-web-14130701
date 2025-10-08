@@ -7,6 +7,10 @@ header{
     text-align: center;
 }
 
+h3{
+  color:rgba(0, 0, 0, 0.8);
+}
+
 section.body{
   width: 90%;
   margin: 0px auto;
