@@ -37,6 +37,10 @@ table{
    margin: 10px 0px;
 }
 
+table th{
+  background-color: #777;
+  color:white;
+}
 th,
 td{
   height: 30px;
