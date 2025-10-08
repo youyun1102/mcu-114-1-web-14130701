@@ -72,6 +72,10 @@ tr>td{
   padding: 10px;
 }
 
+tr:hover{
+  background-color: yellow;
+}
+
  td.id{
   width: 120px;
   text-align: center;
