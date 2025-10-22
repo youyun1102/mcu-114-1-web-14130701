@@ -1,7 +1,7 @@
 section {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; //可視高度
 
   div.main {
     flex-grow: 1;
