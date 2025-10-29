@@ -26,3 +26,12 @@ section {
     }
   }
 }
+
+a {
+  color: var(--text-color);
+  text-decoration: inherit;
+
+  &:hover {
+    color: #137fec;
+  }
+}
