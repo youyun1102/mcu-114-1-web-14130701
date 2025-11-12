@@ -28,6 +28,7 @@ header {
 
     &.search {
       display: flex;
+      align-items: stretch;
       gap: 0;
 
       input {
