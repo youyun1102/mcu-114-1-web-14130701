@@ -1,0 +1,21 @@
+div.main {
+  div.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    > div {
+      gap: 2rem;
+    }
+  }
+
+  aside {
+    outline: solid 1px red;
+    width: 20%;
+    flex-shrink: 0;
+  }
+
+  main {
+    outline: solid 1px blue;
+    flex: 1 1 0%;
+  }
+}
