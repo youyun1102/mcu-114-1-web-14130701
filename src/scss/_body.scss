@@ -44,7 +44,39 @@ div.main {
   }
 
   main {
-    outline: solid 1px blue;
     flex: 1 1 0%;
+
+    h1 {
+      margin: 0;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      cilor: var(--header-color);
+    }
+
+    div.tag {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      button {
+        padding: 0.5rem 1rem;
+        border-width: 0px;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: var(--text-color);
+        background-color: rgb(from var(--border-color) r g b / 0.5);
+        border-radius: 1.5rem;
+        cursor: pointer;
+
+        &.selected {
+          background-color: var(--primary-color);
+          color: white;
+        }
+      }
+    }
   }
 }
