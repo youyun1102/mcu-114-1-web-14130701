@@ -8,8 +8,8 @@ section {
       max-width: 90vw;
       margin: 0px auto;
 
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: var(--container-padding-left);
+      padding-right: var(--container-padding-right);
 
       > div {
         width: 100%;
