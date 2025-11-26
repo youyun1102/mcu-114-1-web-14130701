@@ -77,7 +77,13 @@ div.home {
     }
 
     &.image {
-      outline: solid 1px blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 300px;
+      }
     }
   }
 }
