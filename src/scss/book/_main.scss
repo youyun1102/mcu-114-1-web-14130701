@@ -45,7 +45,9 @@ section {
               margin-bottom: 0.5rem;
             }
 
-            color: var(---gray-color-500);
+            strong {
+              color: var(---gray-color-500);
+            }
           }
         }
       }
